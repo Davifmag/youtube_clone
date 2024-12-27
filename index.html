@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>YouTube Clone</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="media/logo.png" alt="YouTube Logo" class="youtube-logo">
+        </a>
+
+        <form class="search-bar">
+            <input type="search" class="search-input" placeholder="Search..." aria-label="Search">
+            <button type="submit" class="search-btn">
+                <img src="media/magnify.svg" class="btn-image">
+            </button><!--search-btn-->
+        </form><!--search-bar-->
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="media/video-plus.svg" alt="upload video" class="menu-image">
+            </a>
+            
+            <a href="#">
+                <img src="media/apps.svg" alt="apps" class="menu-image">
+            </a>
+
+            <a href="#">
+                <img src="media/bell.svg" alt="notifications" class="menu-image">
+            </a>
+
+            <a href="#">
+                <img class="menu-channel-icon" src="media/profile.jpg" alt="your channel" class="menu-image">
+            </a>
+        </div><!--menu-icons-->
+    </header><!--header-->
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentários</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Outros</button>
+        </section><!--category-section-->
+    </div><!--categories-->
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                    <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypa-dS0GjqgIK8dFgY8XLN4gxnkkqspiCUQ&s" alt="thumbnail">
+                </a><!--thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="media/profile.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Davi Magnani</a>
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            •
+                            <span>3 weeks ago</span>
+                        </div><!--video-metadata-->
+                    </div><!--video-details-->
+                </div><!--video-bottom-section-->
+
+            </article><!--video-container-->
+        </section><!--video-section-->
+    </div><!--videos-->
+</body>
+</html>
